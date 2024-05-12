@@ -1,0 +1,20 @@
+git config --global user.name alexandracacaooconfig
+git config --global user.email mcacao@up.edu.ph
+git init
+git status
+git add filename
+git commit -m ‘Save Drill 2.1.py’
+git branch -M main
+git remote add origin https://github.com/alexandracacaoo/lab-prep-1.git
+### IF EXISTING: git remote remove origin
+#### git remote add origin https://github.com/alexandracacaoo/lab-prep-1.git
+git push -u origin main
+
+git config --global user.name alexandracacaooconfig
+git config --global user.email mcacao@up.edu.ph
+git init
+git add .
+git commit -m ‘Save all files’
+git remote add origin https://github.com/alexandracacaoo/lab-prep-1.git
+git push -u origin main
+
